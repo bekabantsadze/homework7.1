@@ -90,9 +90,12 @@
 }
 .wave-div:hover{
     opacity: 0.8;
-    box-shadow:10px 5px 5px #b81b92;
+    -webkit-box-shadow:10px 5px 5px #b81b92;
+            box-shadow:10px 5px 5px #b81b92;
 }
 .wave-div{
+    -webkit-transition: 1.2s;
+    -o-transition: 1.2s;
     transition: 1.2s;
 }
 
@@ -134,7 +137,8 @@
     display: -ms-flexbox;
     display: flex;
     -ms-flex-line-pack: distribute;
-        justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     max-width: 100%;
@@ -208,7 +212,8 @@
 }
 .read-more1:hover{
     opacity: 0.8;
-    box-shadow:10px 5px 5px #b81b92;
+    -webkit-box-shadow:10px 5px 5px #b81b92;
+            box-shadow:10px 5px 5px #b81b92;
 }
 .read-more1{
     width: 131px;
@@ -231,7 +236,8 @@
 }
 .read-more:hover{
     opacity: 0.8;
-    box-shadow:10px 5px 5px #b81b92;
+    -webkit-box-shadow:10px 5px 5px #b81b92;
+            box-shadow:10px 5px 5px #b81b92;
 }
 .read-more{
     width: 131px;
