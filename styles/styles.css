@@ -5,6 +5,8 @@
 .header-div{
     display: flex;
     justify-content: space-around;
+    padding-top: 30px;
+    background-color: aliceblue;
 }
 .navigation-ul{
     display: flex;
@@ -12,11 +14,12 @@
     height: 24px;
     width: 581px;
     color: #3D37F1;
-    padding-top: 87px;
+    
+    align-items: center;
     font-size: 20px;
 }
 .header-logo{
-    padding-top: 67px;
+    align-items: center;
     width: 195px;
     height: 39px;
 }
